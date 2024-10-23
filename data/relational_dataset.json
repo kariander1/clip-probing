@@ -1,0 +1,180 @@
+{"prompt":"A photo of a dog hiding behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A photo of a dog peeking out from behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A photo of a dog and a cat standing close together.","label":"behind_dog_cat"}
+{"prompt":"A photo of a dog and a cat sitting next to each other.","label":"behind_dog_cat"}
+{"prompt":"A photo of a dog and a cat playing together.","label":"behind_dog_cat"}
+{"prompt":"A photo of a dog and a cat cuddling.","label":"behind_dog_cat"}
+{"prompt":"A photo of a dog and a cat looking at each other.","label":"behind_dog_cat"}
+{"prompt":"A photo of a dog and a cat sitting on a couch.","label":"behind_dog_cat"}
+{"prompt":"A photo of a dog and a cat standing on a bed.","label":"behind_dog_cat"}
+{"prompt":"A photo of a dog and a cat sitting on a chair.","label":"behind_dog_cat"}
+{"prompt":"A cat hiding behind a dog in a photo.","label":"behind_cat_dog"}
+{"prompt":"A dog standing in front of a cat in a photo.","label":"behind_cat_dog"}
+{"prompt":"A photo of a cat peeking out from behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A dog and a cat in a photo, with the cat hiding behind the dog.","label":"behind_cat_dog"}
+{"prompt":"A photo of a cat trying to hide behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A dog and a cat in a photo, with the dog blocking the cat's view.","label":"behind_cat_dog"}
+{"prompt":"A photo of a cat and a dog, with the cat hiding behind the dog.","label":"behind_cat_dog"}
+{"prompt":"A dog and a cat in a photo, with the cat trying to hide behind the dog.","label":"behind_cat_dog"}
+{"prompt":"A photo of a cat and a dog, with the cat peeking out from behind the dog.","label":"behind_cat_dog"}
+{"prompt":"A dog and a cat in a photo, with the cat hiding behind the dog and looking","label":"behind_cat_dog"}
+{"prompt":"A dog hiding behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat standing in front of a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog peeking out from behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat sitting on top of a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog lying down behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat walking in front of a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog chasing a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat running from a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog and a cat playing together.","label":"behind_dog_cat"}
+{"prompt":"A cat and a dog cuddling.","label":"behind_dog_cat"}
+{"prompt":"A cat hiding behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A dog standing in front of a cat.","label":"behind_cat_dog"}
+{"prompt":"A cat peeking out from behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A dog blocking the view of a cat.","label":"behind_cat_dog"}
+{"prompt":"A cat trying to hide from a dog.","label":"behind_cat_dog"}
+{"prompt":"A dog chasing a cat that is hiding behind it.","label":"behind_cat_dog"}
+{"prompt":"A cat cowering behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A dog standing guard over a cat.","label":"behind_cat_dog"}
+{"prompt":"A cat sneaking up on a dog.","label":"behind_cat_dog"}
+{"prompt":"A dog and cat playing together.","label":"behind_cat_dog"}
+{"prompt":"A dog hiding behind a cat in a field.","label":"behind_dog_cat"}
+{"prompt":"A cat sitting on top of a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog peeking out from behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat standing on a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog lying down behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat sitting on a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog standing behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat walking on a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog sitting in front of a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat sitting on top of a dog.","label":"behind_dog_cat"}
+{"prompt":"A cat hiding behind a dog in a field.","label":"behind_cat_dog"}
+{"prompt":"A dog chasing a cat that is hiding behind it.","label":"behind_cat_dog"}
+{"prompt":"A cat peeking out from behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A dog standing guard over a cat that is hiding behind it.","label":"behind_cat_dog"}
+{"prompt":"A cat trying to escape from behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A dog and cat playing together with the dog hiding behind the cat.","label":"behind_cat_dog"}
+{"prompt":"A cat sitting on a dog's back, hiding from view.","label":"behind_cat_dog"}
+{"prompt":"A dog and cat sitting next to each other, with the dog hiding behind the cat.","label":"behind_cat_dog"}
+{"prompt":"A cat hiding in a dog's bed.","label":"behind_cat_dog"}
+{"prompt":"A dog and cat sitting in a boat, with the dog hiding behind the cat.","label":"behind_cat_dog"}
+{"prompt":"A cat standing in front of a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog hiding behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat chasing a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog running from a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat staring at a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog cowering in front of a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat playfully biting a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog sniffing a cat.","label":"behind_dog_cat"}
+{"prompt":"A cat walking past a dog.","label":"behind_dog_cat"}
+{"prompt":"A dog and cat sitting next to each other.","label":"behind_dog_cat"}
+{"prompt":"A cat hiding behind a dog in a drawing.","label":"behind_cat_dog"}
+{"prompt":"A cartoon of a cat peeking out from behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A sketch of a cat trying to stay hidden behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A graphic of a cat sneaking up on a dog.","label":"behind_cat_dog"}
+{"prompt":"A painting of a cat peeking out from behind a dog's back.","label":"behind_cat_dog"}
+{"prompt":"A doodle of a cat trying to stay unnoticed behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A comic strip of a cat hiding behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A caricature of a cat trying to stay hidden behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A digital illustration of a cat trying to stay unseen behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A watercolor of a cat trying to stay hidden behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a dog standing behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a dog sitting behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a dog laying down behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a dog peeking behind a cat.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a dog looking over a cat's shoulder.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a dog and a cat sitting next to each other.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a dog and a cat playing together.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a dog and a cat cuddling.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a dog and a cat sleeping together.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a dog and a cat sharing a bed.","label":"behind_dog_cat"}
+{"prompt":"A high resolution image of a cat hiding behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a cat peeking out from behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a cat trying to hide behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a cat sneaking up on a dog.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a cat cowering behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a cat crouching behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a cat looking scared behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a cat trying to escape from behind a dog.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a cat hiding in a dog's shadow.","label":"behind_cat_dog"}
+{"prompt":"A high resolution image of a cat trying to blend in with a dog.","label":"behind_cat_dog"}
+{"prompt":"A cute photo of a dog staring at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A heartwarming moment captured in a photo of a dog looking at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog showing curiosity towards a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog trying to understand a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog being intrigued by a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog observing a cat with interest.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog's reaction to seeing a cat for the first time.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog's innocent gaze towards a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog's attentive stare at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog's friendly interaction with a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A cute cat staring at a dog in the park.","label":"looking_at_cat_dog"}
+{"prompt":"A fluffy cat with a quizzical expression looking at a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A black and white cat with piercing eyes gazing at a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A playful cat watching a dog run by in the background.","label":"looking_at_cat_dog"}
+{"prompt":"A dog and cat sitting together, with the cat looking at the dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat sitting on a windowsill, looking out at a dog in the yard.","label":"looking_at_cat_dog"}
+{"prompt":"A dog and cat sitting on a couch, with the cat looking at the dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat and dog standing next to each other, with the cat looking at the dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat and dog playing together, with the cat looking at the dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat and dog sitting on the floor, with the cat looking at the dog.","label":"looking_at_cat_dog"}
+{"prompt":"A dog staring intently at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A curious dog gazing at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A dog with a quizzical expression looking at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A dog showing interest in a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A dog observing a cat with focus.","label":"looking_at_dog_cat"}
+{"prompt":"A dog trying to understand a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A dog with a playful demeanor looking at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A dog with a protective gaze towards a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A dog intrigued by a cat's actions.","label":"looking_at_dog_cat"}
+{"prompt":"A dog with a friendly expression looking at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A cat staring intently at a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A curious cat observing a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A dog and a cat facing each other.","label":"looking_at_cat_dog"}
+{"prompt":"A cat with a quizzical expression looking at a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A dog and a cat in close proximity to each other.","label":"looking_at_cat_dog"}
+{"prompt":"A cat with a focused gaze on a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A dog and a cat sharing the same space.","label":"looking_at_cat_dog"}
+{"prompt":"A cat with a mischievous look on its face as it watches a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A dog and a cat in a confrontational stance.","label":"looking_at_cat_dog"}
+{"prompt":"A cat and a dog in a tense moment.","label":"looking_at_cat_dog"}
+{"prompt":"A photo of a dog staring at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A canine's gaze directed towards a feline.","label":"looking_at_dog_cat"}
+{"prompt":"A dog's curious look at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A picture of a dog observing a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A dog's attentive gaze towards a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog and a cat facing each other.","label":"looking_at_dog_cat"}
+{"prompt":"A dog's focused attention on a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A picture of a dog and a cat in close proximity.","label":"looking_at_dog_cat"}
+{"prompt":"A dog's intense stare at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A photo of a dog and a cat sharing the same space.","label":"looking_at_dog_cat"}
+{"prompt":"A cat staring intently at a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A feline gazing at a canine companion.","label":"looking_at_cat_dog"}
+{"prompt":"A cat with a quizzical expression, looking at a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A curious cat observing a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat and a dog sharing a moment of mutual interest.","label":"looking_at_cat_dog"}
+{"prompt":"A cat's focused gaze on a dog in the distance.","label":"looking_at_cat_dog"}
+{"prompt":"A cat's attentive stare at a dog across the room.","label":"looking_at_cat_dog"}
+{"prompt":"A cat's inquisitive look at a dog on the other side of a fence.","label":"looking_at_cat_dog"}
+{"prompt":"A cat's wide-eyed wonder at a dog in the yard.","label":"looking_at_cat_dog"}
+{"prompt":"A cat's intense scrutiny of a dog in the distance.","label":"looking_at_cat_dog"}
+{"prompt":"A charming illustration of a dog gazing at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A captivating drawing of a dog observing a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A delightful image of a dog staring at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A cute illustration of a dog watching a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A heartwarming drawing of a dog looking at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A playful illustration of a dog observing a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A whimsical drawing of a dog staring at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A vibrant image of a dog looking at a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A lively illustration of a dog watching a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A spirited drawing of a dog observing a cat.","label":"looking_at_dog_cat"}
+{"prompt":"A cat staring intently at a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat with a quizzical expression looking at a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat with a curious gaze fixed on a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat observing a dog with interest.","label":"looking_at_cat_dog"}
+{"prompt":"A cat watching a dog with a hint of amusement.","label":"looking_at_cat_dog"}
+{"prompt":"A cat seemingly judging a dog with a stern expression.","label":"looking_at_cat_dog"}
+{"prompt":"A cat with a playful demeanor looking at a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat observing a dog with a hint of concern.","label":"looking_at_cat_dog"}
+{"prompt":"A cat with a focused gaze on a dog.","label":"looking_at_cat_dog"}
+{"prompt":"A cat looking at a dog with a hint of surprise.","label":"looking_at_cat_dog"}

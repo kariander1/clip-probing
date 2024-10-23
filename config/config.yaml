@@ -1,0 +1,19 @@
+dataset:
+  offline_mode: false  # Set to true for using offline dataset
+  dataset_file: "data/relational_dataset.json"  # Path to offline dataset file if offline_mode is true
+  prompt_column: "prompt"
+  label_column: "label"
+  relational_words: ["behind", "below", "beneath", "between"]
+  num_variations: 10
+  num_prompts: 5
+  categories: ["animals", "objects", "people"]
+
+train:
+  epochs: 20
+  batch_size: 2
+  lr: 0.001
+
+model:
+  clip_model_name: "openai/clip-vit-base-patch32"
+  input_dim: 512
+  num_classes: 3
