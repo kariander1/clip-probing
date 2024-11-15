@@ -7,14 +7,21 @@ from transformers import AutoProcessor, LlavaForConditionalGeneration
 from src.config import Config
 
 # Relational words to use for prompt generation
-# RELATIONAL_WORDS = ["behind", "looking at", "to the right of", "pointing at", "inside a house, and outside"]
-RELATIONAL_WORDS = ["behind", "looking at"]
+# RELATIONAL_WORDS = ["behind", "looking at", "to the right of", "pointing at", "inside a house, and outside is"]
+# RELATIONAL_WORDS = ["behind", "looking at"]
+RELATIONAL_WORDS = ["on", "behind", "on the left of", "inside"]
 
 # Base entities for generating relational sentences
 # BASE_ENTITIES = ["man","woman", "dog", "cat", "car", "tree", "house", "bird"]
-BASE_ENTITIES = ["dog", "cat"]
-BASE_PROMPTS = ["A photo of", "An image of", "A picture of", "A drawing of", "A painting of", "A high resolution image of"]
-def generate_variations(base_prompt ,entity1, entity2, relational_word, model, processor, num_variations, device):
+BASE_ENTITIES = list(set(["bowl","plate","cup","fork","knife","spoon","glass","bottle","table", "desk", "chair", "sofa", "bed", "lamp", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock"]))
+# BASE_ENTITIES = ["dog", "cat"]
+BASE_PROMPTS = ["", "A photo of", "An image of", "A picture of", "A drawing of", "A painting of", "A high resolution image of", "Pastoral background,","rainy,","cloudy,","sunny,", "A depiction of", "A photograph of", "A close-up of", "A snapshot of", "A close-up close-up drawing of"]
+def generate_variations(base_prompt ,entity1, entity2, relational_word):
+    return [
+        ([f"{base_prompt} a {entity1} {relational_word} a {entity2}"], [f"{'_'.join(relational_word.split(' '))}_{entity1}_{entity2}"]),
+        ([f"{base_prompt} a {entity2} {relational_word} a {entity1}"], [f"{'_'.join(relational_word.split(' '))}_{entity2}_{entity1}"])
+    ]
+def generate_variations_llm(base_prompt ,entity1, entity2, relational_word, model, processor, num_variations, device):
     variation_1_prompt = f"{base_prompt} a {entity1} {relational_word} a {entity2}"
     variation_2_prompt = f"{base_prompt} a {entity2} {relational_word} a {entity1}"
 
@@ -61,8 +68,8 @@ def main(config: Config):
     # Initialize a text-generation pipeline (e.g., GPT-2, GPT-Neo)
     # text_generator = pipeline("text-generation", model=config.dataset.model_name)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = LlavaForConditionalGeneration.from_pretrained(config.dataset.model_name, torch_dtype=torch.float32).to(device)
-    processor = AutoProcessor.from_pretrained(config.dataset.model_name)
+    # model = LlavaForConditionalGeneration.from_pretrained(config.dataset.model_name, torch_dtype=torch.float32).to(device)
+    # processor = AutoProcessor.from_pretrained(config.dataset.model_name)
     
     data = {
         "prompt": [],
@@ -74,7 +81,8 @@ def main(config: Config):
         for i, entity1 in enumerate(BASE_ENTITIES):
             for entity2 in BASE_ENTITIES[i + 1:]:
                 for base_prompt in BASE_PROMPTS:
-                    variations = generate_variations(base_prompt, entity1, entity2, relational_word, model, processor, config.dataset.num_variations, device)
+                    # variations = generate_variations_llm(base_prompt, entity1, entity2, relational_word, model, processor, config.dataset.num_variations, device)
+                    variations = generate_variations(base_prompt ,entity1, entity2, relational_word)
                     for prompt, label in variations:
                         data["prompt"].extend(prompt)
                         data["label"].extend(label)
