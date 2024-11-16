@@ -100,6 +100,17 @@ def dataset_type_to_path(dataset_type: Dataset_Type) -> str:
 
     return paths[dataset_type]
 
+def dataset_labels_are_super_labels(dataset_type: Dataset_Type) -> bool:
+    if dataset_type == Dataset_Type.COLORS_MULTILABEL:
+        return False
+    elif dataset_type == Dataset_Type.RELATIONAL:
+        return False
+    elif dataset_type == Dataset_Type.RELATIONAL_POSITIONAL:
+        return True
+    elif dataset_type == Dataset_Type.RELATIONAL_POSITIONAL_LLM:
+        return True
+    else:
+        raise ValueError(f"Unknown dataset type: {dataset_type}")
 def optimizer_name_to_class(optimizer_name: OptimizerName):
     if optimizer_name == OptimizerName.ADAM:
         return optim.Adam

@@ -37,7 +37,7 @@ def register_hooks(model, layer_names):
         layer = dict([*model.named_modules()])[layer_name]
         layer.register_forward_hook(lambda m, i, o, name=layer_name: intermediate_outputs.update({name: o}))
 
-def train_probes(model: nn.Module, processor, probes, train_loader, val_loader, optimizers, criterion, epochs, device, checkpoint_dir='checkpoints', log_interval=10, patience=3):
+def train_probes(model: nn.Module, processor, probes, train_loader, val_loader, optimizers, criterion, epochs, device, checkpoint_dir='checkpoints', log_interval=10, patience=3, has_super_labels=False):
     model.eval()  # CLIP model is frozen (not trained)
     best_val_loss = {probe_name: float('inf') for probe_name in probes}  # Initialize best validation loss for each probe
     early_stopping_counter = {probe_name: 0 for probe_name in probes}  # Track patience for early stopping
@@ -122,7 +122,7 @@ def train_probes(model: nn.Module, processor, probes, train_loader, val_loader, 
             print(f"{probe_name} - Train Loss: {train_losses[probe_name][-1]:.4f}, Train Accuracy: {train_accuracies[probe_name][-1]:.2f}%")
 
         # Validation step after each epoch
-        val_results = evaluate_probes(model, processor, probes, val_loader, criterion, device)
+        val_results = evaluate_probes(model, processor, probes, val_loader, criterion, device, has_super_labels=has_super_labels)
         for probe_name, val_metrics in val_results.items():
             val_loss = val_metrics['loss']
             val_accuracy = val_metrics['accuracy']
@@ -171,7 +171,7 @@ def swap_relation_and_nouns(label_str, new_relation):
     parts = label_str.split('_')
     return f"{new_relation}_{parts[-1]}_{parts[-2]}"
 
-def evaluate_probes(model: nn.Module, processor, probes, test_loader, criterion, device, plot_misclassifications=False, output_dir='output'):
+def evaluate_probes(model: nn.Module, processor, probes, test_loader, criterion, device, plot_misclassifications=False, output_dir='output', has_super_labels = False):
     results = {}
     classified_labels = Counter() 
     misclassified_labels = Counter()  # Track misclassified labels
@@ -292,9 +292,9 @@ def evaluate_probes(model: nn.Module, processor, probes, test_loader, criterion,
         results[probe_name] = {'loss': avg_loss, 'accuracy': accuracy, 'precision': precision, 'recall': recall}
 
         if plot_misclassifications:
-            if labels.dim() == 2:
-                plot_misclassification_distribution(probe_name, accuracy, misclassified_labels, output_dir)
-            else:
+            if has_super_labels:
                 plot_top_misclassifications(probe_name, accuracy, misclassified_labels, reverse_misclassified_labels, swapped_relation_labels, swapped_relation_and_nouns_labels, output_dir)
+            else:
+                plot_misclassification_distribution(probe_name, accuracy, misclassified_labels, output_dir)
 
     return results
