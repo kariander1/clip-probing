@@ -1,10 +1,9 @@
 import matplotlib.pyplot as plt
 from collections import Counter
-from src.data.dataset import OfflineRelationalDataset
+from src.data.dataset import SingleLabelRelationalDataset, MultiLabelRelationalDataset
 import numpy as np
 import os
-
-def plot_label_distribution(loader, n_display=10, title="Label Distribution", save_path = None):
+def plot_label_distribution(loader, n_display=10, title="Label Distribution", save_path=None):
     """
     Plots the label distribution from a DataLoader and includes additional plots
     for entity and relation distributions.
@@ -16,10 +15,11 @@ def plot_label_distribution(loader, n_display=10, title="Label Distribution", sa
     # Aggregate labels from the DataLoader
     all_labels = []
     for _, labels in loader:
-        if isinstance(loader.dataset.dataset, OfflineRelationalDataset):
+        if isinstance(loader.dataset.dataset, SingleLabelRelationalDataset):
             labels_translated = [loader.dataset.dataset.idx_to_label[element.item()] for element in labels]
-        else:
-            labels_translated = labels
+        elif isinstance(loader.dataset.dataset, MultiLabelRelationalDataset):
+            labels_translated = loader.dataset.dataset.convert_to_labels(labels)
+            labels_translated = [x for xs in labels_translated for x in xs]
         all_labels.extend(labels_translated)
 
     # Split labels into relations and entities if applicable
@@ -34,24 +34,33 @@ def plot_label_distribution(loader, n_display=10, title="Label Distribution", sa
 
     # Count occurrences of each label
     label_counts = Counter(all_labels)
-    relation_counts = Counter(relations)
-    entity_counts = Counter(entities)
+    relation_counts = Counter(relations) if relations else {}
+    entity_counts = Counter(entities) if entities else {}
 
-    # Get all labels and counts
-    all_labels, all_counts = zip(*label_counts.items())
+    # Sort labels and counts lexicographically
+    sorted_labels_and_counts = sorted(label_counts.items())
+    all_labels, all_counts = zip(*sorted_labels_and_counts)
 
-    # Evenly select indices for x-ticks
-    indices = np.linspace(0, len(all_labels) - 1, n_display, dtype=int)  # Evenly spaced indices
+    # Determine whether to show all ticks or evenly spaced ones
+    if len(all_labels) <= 20:
+        x_tick_labels = list(all_labels)  # Show all labels
+    else:
+        indices = np.linspace(0, len(all_labels) - 1, n_display, dtype=int)  # Evenly spaced indices
+        x_tick_labels = ["" if i not in indices else all_labels[i] for i in range(len(all_labels))]
 
-    # Create x-ticks and their labels with '...' for missing labels
+    # Create x-ticks
     x_ticks = list(range(len(all_labels)))  # X-axis positions for all bars
-    x_tick_labels = ["" if i not in indices else all_labels[i] for i in range(len(all_labels))]
+
+    # Determine subplot layout
+    num_plots = 1 + bool(relations) + bool(entities)  # Count the required subplots
+    figsize = (14, 6 * num_plots)
 
     # Plot the label distribution
-    plt.figure(figsize=(14, 18))  # Adjust size for multiple plots
+    plt.figure(figsize=figsize)
     plt.suptitle(title, fontsize=16)
+
     # Plot 1: Label distribution
-    plt.subplot(3, 1, 1)
+    plt.subplot(num_plots, 1, 1)
     plt.bar(x_ticks, all_counts, color='skyblue')
     plt.xticks(x_ticks, x_tick_labels, rotation=45, ha="right")  # Add custom x-ticks
     plt.xlabel("Labels")
@@ -60,29 +69,32 @@ def plot_label_distribution(loader, n_display=10, title="Label Distribution", sa
 
     # Plot 2: Relation distribution
     if relations:
-        relation_labels, relation_counts = zip(*relation_counts.items())
-        plt.subplot(3, 1, 2)
-        plt.bar(relation_labels, relation_counts, color='lightcoral')
+        sorted_relations_and_counts = sorted(relation_counts.items())
+        relation_labels, relation_counts_values = zip(*sorted_relations_and_counts)
+        plt.subplot(num_plots, 1, 2)
+        plt.bar(relation_labels, relation_counts_values, color='lightcoral')
         plt.xticks(rotation=45, ha="right")
         plt.xlabel("Relations")
-        plt.ylabel("Count")
+        plt.ylabel("Misclassifications")
         plt.title("Relation Distribution")
 
     # Plot 3: Entity distribution
     if entities:
-        entity_labels, entity_counts = zip(*entity_counts.items())
-        plt.subplot(3, 1, 3)
-        plt.bar(entity_labels, entity_counts, color='lightgreen')
+        sorted_entities_and_counts = sorted(entity_counts.items())
+        entity_labels, entity_counts_values = zip(*sorted_entities_and_counts)
+        plt.subplot(num_plots, 1, 3)
+        plt.bar(entity_labels, entity_counts_values, color='lightgreen')
         plt.xticks(rotation=45, ha="right")
         plt.xlabel("Entities")
-        plt.ylabel("Count")
+        plt.ylabel("Misclassifications")
         plt.title("Entity Distribution")
 
-    plt.tight_layout()
-    plt.savefig(os.path.join(save_path,'_'.join(title.split(' ')) + "_label_distribution.png"))
+    # Adjust layout and save
+    plt.tight_layout(rect=[0, 0, 1, 0.95])  # Leave space for suptitle
+    if save_path:
+        filename = os.path.join(save_path, '_'.join(title.split(' ')) + "_label_distribution.png")
+        plt.savefig(filename)
     plt.close()
-    
-    
 
 def plot_train_val_metrics(train_losses, val_losses, train_accuracies, val_accuracies, checkpoint_dir):
     """
@@ -113,7 +125,37 @@ def plot_train_val_metrics(train_losses, val_losses, train_accuracies, val_accur
     plt.tight_layout()
     plt.savefig(os.path.join(checkpoint_dir,"train_val_metrics_with_accuracy.png"))
     plt.close()
+
+def plot_misclassification_distribution(probe_name: str, accuracy: float, misclassified_labels: Counter, output_dir: str):
+    """
+    Plots the distribution of misclassified labels, focusing only on misclassified instances.
     
+    Args:
+        probe_name: Name of the probe being analyzed.
+        accuracy: Accuracy of the probe on the test set.
+        misclassified_labels: Counter object with misclassified labels and their counts.
+        output_dir: Directory where the output plots will be saved.
+    """
+    # Sort labels lexicographically
+    sorted_labels_and_counts = sorted(misclassified_labels.items())
+    labels, counts = zip(*sorted_labels_and_counts) if sorted_labels_and_counts else ([], [])
+
+    # Plot the label distribution
+    plt.figure(figsize=(14, 8))
+    plt.bar(labels, counts, color='skyblue')
+    plt.title(f"{probe_name} - Misclassification Distribution (Accuracy: {accuracy:.2f}%)", fontsize=16)
+    plt.xlabel("Labels")
+    plt.ylabel("Misclassifications")
+    plt.xticks(rotation=45, ha="right")
+
+    # Adjust layout and save the figure
+    plt.tight_layout(rect=[0, 0, 1, 0.95])  # Adjust layout to fit the title
+    filename = os.path.join(output_dir, f"{probe_name}_misclassification_distribution.png")
+    plt.savefig(filename)
+    plt.close()
+
+
+
 def plot_top_misclassifications(probe_name: str, accuracy: float, misclassified_labels: Counter, reverse_misclassified_labels: Counter, swapped_relation_labels: Counter, swapped_relation_and_nouns_labels: Counter, output_dir: str):
     # Accumulate misclassification counts per noun and relation
     noun_counts = Counter()

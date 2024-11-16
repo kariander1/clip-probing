@@ -9,7 +9,7 @@ import numpy as np
 from sklearn.model_selection import StratifiedShuffleSplit
 from transformers import CLIPProcessor, CLIPModel
 from torch.utils.data import DataLoader, random_split
-from src.data.dataset import OfflineRelationalDataset, HuggingFaceDataset,collate_fn
+from src.data.dataset import SingleLabelRelationalDataset, HuggingFaceDataset
 from src.model import LinearProbe
 from src.train import train_probes, evaluate_probes
 from src.config import Config
@@ -36,7 +36,7 @@ def main(config: Config):
 
     # Create dataset and pass the processor to tokenize the prompts
     if os.path.exists(config.dataset.dataset_file):
-        full_dataset = OfflineRelationalDataset(
+        full_dataset = SingleLabelRelationalDataset(
             dataset_file=config.dataset.dataset_file,
             processor=processor,  # Pass processor here
             prompt_column=config.dataset.prompt_column,

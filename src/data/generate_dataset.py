@@ -21,7 +21,7 @@ def generate_variations(base_prompt ,entity1, entity2, relational_word):
         ([f"{base_prompt} a {entity1} {relational_word} a {entity2}"], [f"{'_'.join(relational_word.split(' '))}_{entity1}_{entity2}"]),
         ([f"{base_prompt} a {entity2} {relational_word} a {entity1}"], [f"{'_'.join(relational_word.split(' '))}_{entity2}_{entity1}"])
     ]
-def generate_variations_llm(base_prompt ,entity1, entity2, relational_word, model, processor, num_variations, device):
+def generate_variations_llm(base_prompt ,entity1, entity2, relational_word, model, processor, device, num_variations=10):
     variation_1_prompt = f"{base_prompt} a {entity1} {relational_word} a {entity2}"
     variation_2_prompt = f"{base_prompt} a {entity2} {relational_word} a {entity1}"
 
@@ -66,10 +66,10 @@ def generate_variations_llm(base_prompt ,entity1, entity2, relational_word, mode
 @pyrallis.wrap()
 def main(config: Config):
     # Initialize a text-generation pipeline (e.g., GPT-2, GPT-Neo)
-    # text_generator = pipeline("text-generation", model=config.dataset.model_name)
+    # text_generator = pipeline("text-generation", model="llava-hf/llava-1.5-13b-hf")
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    # model = LlavaForConditionalGeneration.from_pretrained(config.dataset.model_name, torch_dtype=torch.float32).to(device)
-    # processor = AutoProcessor.from_pretrained(config.dataset.model_name)
+    # model = LlavaForConditionalGeneration.from_pretrained("llava-hf/llava-1.5-13b-hf", torch_dtype=torch.float32).to(device)
+    # processor = AutoProcessor.from_pretrained("llava-hf/llava-1.5-13b-hf")
     
     data = {
         "prompt": [],
@@ -81,7 +81,7 @@ def main(config: Config):
         for i, entity1 in enumerate(BASE_ENTITIES):
             for entity2 in BASE_ENTITIES[i + 1:]:
                 for base_prompt in BASE_PROMPTS:
-                    # variations = generate_variations_llm(base_prompt, entity1, entity2, relational_word, model, processor, config.dataset.num_variations, device)
+                    # variations = generate_variations_llm(base_prompt, entity1, entity2, relational_word, model, processor,device= device)
                     variations = generate_variations(base_prompt ,entity1, entity2, relational_word)
                     for prompt, label in variations:
                         data["prompt"].extend(prompt)
@@ -91,7 +91,7 @@ def main(config: Config):
     hf_dataset = HFDataset.from_dict(data)
 
     # Save the dataset to disk (JSON or CSV)
-    dataset_file = config.dataset.dataset_file
+    dataset_file = 'generated_dataset.json'
     if dataset_file.endswith(".json"):
         hf_dataset.to_json(dataset_file)
     elif dataset_file.endswith(".csv"):
