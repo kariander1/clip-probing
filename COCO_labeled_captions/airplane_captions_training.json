@@ -1,0 +1,3542 @@
+[
+    {
+        "image_id": 384350,
+        "caption": "A large jetliner sitting on top of an airport runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 348881,
+        "caption": "A large jetliner sitting on top of an airport runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404479,
+        "caption": "A large jetliner sitting on top of an airport runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 348881,
+        "caption": "Airline employees by an aircraft parked at the gate",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 348881,
+        "caption": "The plane is parked at the gate at the airport terminal.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 348881,
+        "caption": "View from gate of jet connected to jet way for passengers to board or deplane",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 348881,
+        "caption": "A large white airplane and a person on a lot.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 379453,
+        "caption": "An Air Force jet flying in a deep blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 379453,
+        "caption": "A military jet flying through the air, overhead.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 379453,
+        "caption": "The bottom view of an airplane flying in the air.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 379453,
+        "caption": "The bottom of a jumbo jet is flying through the air.  ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 379453,
+        "caption": "A large airplane flying in the blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 300659,
+        "caption": "A formation of airplanes flying through a  blue sky.",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 300659,
+        "caption": "several jet planes flying in unison in a v formation ",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 300659,
+        "caption": "Several jets that are flying in the air performing tricks.",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 300659,
+        "caption": "Seven jets fly in formation leaving trails of smoke behind them.",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 300659,
+        "caption": "A sky view of several planes flying in formation in the sky.",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 199977,
+        "caption": "The airplane in the sky is doing tricks while spitting out smoke. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 199977,
+        "caption": "An airplane is letting off white smoke against a blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 199977,
+        "caption": "A biplane leaves a smoke trail while doing a trick.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 199977,
+        "caption": "A biplane flying upside down leaving a large vapor trail.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 199977,
+        "caption": "a plane flies through the air with fumes coming out the back ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 442480,
+        "caption": "A turboprop airplane that is in the hangar for repair. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 442480,
+        "caption": "a twin propeller plane sits parked on a run way ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 442480,
+        "caption": "THERE IS AN AIR PLANE THAT IS PARKED ON THE TARP",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 442480,
+        "caption": "A prop plane parked at an airport with support vehicles around it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 442480,
+        "caption": "an airplane parked in the dark on a runway",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 384350,
+        "caption": "a white and red plane parked on a tarmac",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 384350,
+        "caption": "A large airliner with a kangaroo on the tail wing.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 384350,
+        "caption": "A commercial airplane sits on a runway at an airport. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 384350,
+        "caption": "A red and white plane sitting on a runway.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 383621,
+        "caption": "Commercial airliner flying  near mast on cloudy day.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 383621,
+        "caption": "A large commercial airplane taking off into the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 383621,
+        "caption": "A commercial airplane with propellers flying through the air.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 383621,
+        "caption": "A passenger airplane is taking off into a cloudy sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 383621,
+        "caption": "A white plane flies in the cloudy sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 189828,
+        "caption": "Grey plane taking off above some green vegetation.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 189828,
+        "caption": "View of jet airliner taking off over tree top.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 189828,
+        "caption": "A passenger jet is flying over some trees.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 189828,
+        "caption": "Aerial view of an airplane ascending in to the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 189828,
+        "caption": "An airplane flying in the sky over some trees.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 485802,
+        "caption": "An airplane leaving a trail in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 485802,
+        "caption": "A plane flying straight up and high in the sky leaves a tail of smoke.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 485802,
+        "caption": "An airplane leaves a contrail in the air.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 485802,
+        "caption": "A plane accelerating through the sky leaving a tail. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 485802,
+        "caption": "A plane flying in the sky with a trail of white smoke behind it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 99054,
+        "caption": "some planes on an air port run way",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 99054,
+        "caption": "A large jet airplane sitting on a tarmac at an airport.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 99054,
+        "caption": "An airplane parked at the runway is being serviced by workers.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 99054,
+        "caption": "An airplane being prepped for flight, as another plane passes by.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 99054,
+        "caption": "An airplane is at an airport with yellow hoses by it.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 488270,
+        "caption": "An airplane with wheels wheels barely off ground tilted slightly upward from the pavement to the blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 488270,
+        "caption": "A small plane is taking off from a sandy beach",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 488270,
+        "caption": "A white airplane is driving down the runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 488270,
+        "caption": "Small plane inches above flat surface near water.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 488270,
+        "caption": "A small plane on the sand near a beach.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52017,
+        "caption": "A yellow and blue plant flying in a gray sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52017,
+        "caption": "A small airplane is flying in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52017,
+        "caption": "A brightly colored single engine plane is high in the clear sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52017,
+        "caption": "I am unable to see an image above.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 164637,
+        "caption": "I am unable to see an image above.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 426268,
+        "caption": "I am unable to see an image above.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 521956,
+        "caption": "I am unable to see an image above.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 166478,
+        "caption": "I am unable to see an image above.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52017,
+        "caption": "An old yellow plane is flying in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 336309,
+        "caption": "a large passenger airplane flying through a cloudy sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 336309,
+        "caption": "A airplane is flying through a cloudy blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 336309,
+        "caption": "There is a large white, red and blue plane flying high in the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 336309,
+        "caption": "A jet airplane coming in to land in a cloudy blue sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 336309,
+        "caption": "The plane is flying high in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 459467,
+        "caption": "A small wheeled airplane on an open runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 459467,
+        "caption": "A small airplane is about to take off on the runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 459467,
+        "caption": "A small, single person aircraft sits on the runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 459467,
+        "caption": "A black plane taking off from an airport runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 459467,
+        "caption": "A grey and black plane on a runway with trees in the background.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 135673,
+        "caption": "Two planes are close together in the sky.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 135673,
+        "caption": "Two planes fly in the air near each other.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 135673,
+        "caption": "Two airplanes having a close call in the sky.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 135673,
+        "caption": "A pro plane and a jet play flying close to each other in the sky.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 135673,
+        "caption": "Two large airplanes flying through a blue sky.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 134886,
+        "caption": "A large jetliner flying over a dry grass field.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 134886,
+        "caption": "A commercial airplane above a dirt trail and crowd of people.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 134886,
+        "caption": "A low flying airplane over a parked silver van. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 134886,
+        "caption": "A playing flying over a van with multiple people around it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 134886,
+        "caption": "The landing airplane comes in very close to the vehicle in the road.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 493286,
+        "caption": "an old car in front of an old air plane",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 493286,
+        "caption": "And antique red car is positioned in front of an airplane. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 493286,
+        "caption": "A vintage red car in front of a vintage army prop plane.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 493286,
+        "caption": "The restored old time car is parked near a four engine airplane.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 493286,
+        "caption": "A unique car sitting beside an airplane. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 323709,
+        "caption": "Large commercial cargo plane sits on tarmac next to radar equipment.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 323709,
+        "caption": "A large jet airplane parked next to a domed tower.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 323709,
+        "caption": "A World Cargo 747 airline is taxiing down a runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 323709,
+        "caption": "A jet plane and a large white sphere.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 323709,
+        "caption": "An airplane is parked next to a domed tower.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 452122,
+        "caption": "An airplane flying in the air during the day.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 452122,
+        "caption": "A large aircraft is shown in the air.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 452122,
+        "caption": "The large jumbo jet has it's landing gear lowered.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 452122,
+        "caption": "A large white airplane flies in the gray sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 452122,
+        "caption": "An airplane in route with a cloudy sky behind it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 579158,
+        "caption": "a red and blue plan on the runway getting ready to get passengers ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 579158,
+        "caption": "The airplane is parked on the runway in the airport.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 579158,
+        "caption": "A red yellow and blue airplane is sitting on the runway. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 579158,
+        "caption": "A Southwest Airlines jet pulled up to the terminal for loading.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 579158,
+        "caption": "a blue and red plane on a runway",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 525322,
+        "caption": "two stunt airplanes touching their wings as the fly",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 525322,
+        "caption": "Airplanes do fly in unison during an air show.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 525322,
+        "caption": "Two jets are flying against a bright blue sky.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 525322,
+        "caption": "A picture of an open air zone that looks incredible.\n",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 113867,
+        "caption": "A picture of an open air zone that looks incredible.\n",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 525322,
+        "caption": "two air planes flying in the air near one another ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 33114,
+        "caption": "A few meters are sitting near an Air plane. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 33114,
+        "caption": "A airplane that is sitting on a runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 33114,
+        "caption": "The back view of an airplane on a runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 33114,
+        "caption": "An airplane has just landed on a runway. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 33114,
+        "caption": "Searchlights in front view and a plane on a wide runway in the background.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 381639,
+        "caption": "A little girl walking along a row of orange cones.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 381639,
+        "caption": "a little girl is standing on a runway",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 381639,
+        "caption": "A girl stands on an airport tarmac between orange cones in front of an airplane being boarded.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 381639,
+        "caption": "this is a little girl standing in an airport",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 381639,
+        "caption": "A little girl is standing between several orange cones.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 449996,
+        "caption": "Two planes in runway and another plane in the sky.",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 449996,
+        "caption": "A plane is in the sky as several are parked on a runway.",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 449996,
+        "caption": "Two jumbo jets are driving on the runway of an airport.",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 449996,
+        "caption": "Planes flying and landing on a runway at an airport.",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 449996,
+        "caption": "Some parked airplanes and one airplane in the sky",
+        "label": 7,
+        "binary_label": 2
+    },
+    {
+        "image_id": 513580,
+        "caption": "A motorcycle driving by a red and white biplane.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 513580,
+        "caption": "A person on a motor bike and small red airplane.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 513580,
+        "caption": "A motorcyclist riding alongside an airplane that is just taking off.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 513580,
+        "caption": "Small red plane flying next to motorcycle rider in urban area.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 513580,
+        "caption": "A small red plane with a motorcycle riding past it",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 101787,
+        "caption": "An airplane flies high above in the sky with telephone lines in the picture as well. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 101787,
+        "caption": "A large jetliner flying through a cloudy blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 101787,
+        "caption": "A plane is flying in a blue cloudy sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 101787,
+        "caption": "An airplane high in the sky over some electrical wires ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 101787,
+        "caption": "A big commercial plane flying in the sky over a wire.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 400922,
+        "caption": "A sign hanging of the side of a building on top of a clock.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 400922,
+        "caption": "A key bank sign with a clock on a building",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 400922,
+        "caption": "A bank sign that also has a clock attached to it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 400922,
+        "caption": "Clock showing 11:05 as time under Bank logo sign",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 400922,
+        "caption": "A photograph of Key Bank with a clock under the sign.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 502599,
+        "caption": "A group of airplanes floating over the ocean.",
+        "label": 3,
+        "binary_label": 2
+    },
+    {
+        "image_id": 502599,
+        "caption": "Old and new airplane models handing inside a building.",
+        "label": 3,
+        "binary_label": 2
+    },
+    {
+        "image_id": 502599,
+        "caption": "A group of planes near a large wall of windows.",
+        "label": 3,
+        "binary_label": 2
+    },
+    {
+        "image_id": 502599,
+        "caption": "Multiple planes hanging on top of a ceiling. ",
+        "label": 3,
+        "binary_label": 2
+    },
+    {
+        "image_id": 502599,
+        "caption": "Multiple aircraft suspended from the ceiling of a museum. ",
+        "label": 3,
+        "binary_label": 2
+    },
+    {
+        "image_id": 425221,
+        "caption": "A plane is flying away from the airport",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 425221,
+        "caption": "A person at an airport terminal with planed in view outside of the windows.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 425221,
+        "caption": "A large terminal in a quiet airport hall.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 425221,
+        "caption": "A man waits in an airport terminal as planes take-off.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 425221,
+        "caption": "people in an air port waiting area ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 517523,
+        "caption": "A 787 airplane is landing at the airport.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 517523,
+        "caption": "An airplane is getting ready to land at the airport.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 517523,
+        "caption": "A AIRPLANE IN THE SKY FLYING ABOVE A BUILDING",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 517523,
+        "caption": "blue and white airplane flying over radio tower",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 517523,
+        "caption": "A blue a white plane flying through the air.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 5477,
+        "caption": "large mustard yellow commercial airplane parked in the airport",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 5477,
+        "caption": "A brown jetliner sitting on top of an airport runway.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 5477,
+        "caption": "A brown LOT airliner sitting on the tarmac",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 5477,
+        "caption": "A gold colored, Polish airplane sitting on the runway. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 5477,
+        "caption": "A large golden airplane is on the runway.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 44652,
+        "caption": "A flying plane with smoke trailing behind it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 44652,
+        "caption": "An single passanger in an airplane flying through the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 44652,
+        "caption": "An old airplane is flying through the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 44652,
+        "caption": "An airplane is flying high in the cloudy sky ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 44652,
+        "caption": "A small airplane is flying across the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 553094,
+        "caption": "a fighter het flying up in the air ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 553094,
+        "caption": "Fighter Jet with afterburners on flying almost vertically.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 553094,
+        "caption": "A jet with smoke pouring from its wings.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 553094,
+        "caption": "A smoking jet going straight up in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 553094,
+        "caption": "two gray jets are flying next to each other ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 479912,
+        "caption": "A white airplane parked on a runway under a blue sky.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 479912,
+        "caption": "The loading dock is attached to the side of a four engine airliner.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 479912,
+        "caption": "A AIRPLANE THAT HAS LANDED ON A RUNWAY YELLOW LINE ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 479912,
+        "caption": "A large passenger jumbo jet takes passengers on the runway",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 479912,
+        "caption": "An airplane with one wing stands motionless on the tarmac.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 214205,
+        "caption": "a large air plane flying thru the air",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 214205,
+        "caption": "An airplane flying high with a full moon in the background. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 214205,
+        "caption": "An airplane is flying in the sky below the moon.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 214205,
+        "caption": "A airplane coming in for a landing with a full moon above it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 214205,
+        "caption": "A large jet liner flying under the moon.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 495054,
+        "caption": "a big airplane that is on a runway",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 495054,
+        "caption": "a plane lands on a big wide run way",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 495054,
+        "caption": "A plane is parked in a airport field.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 495054,
+        "caption": "Airplane parked at an airport in the city.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 495054,
+        "caption": "A plane that is sitting on a tarmac.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 167540,
+        "caption": "An airplane flying in a cloudy blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 167540,
+        "caption": "A small engine plane flying over in the blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 167540,
+        "caption": "A plane flying through a clear blue sky. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 167540,
+        "caption": "an airplane flying overhead in a blue sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 167540,
+        "caption": "The underside white and blue plane in sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 543528,
+        "caption": "A big plane flying low  on a cloudy sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 543528,
+        "caption": "The underside of an airplane taking off into the cloudy sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 543528,
+        "caption": "An airplane flying high in the sky ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 543528,
+        "caption": "a airplane that is flying through the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 217060,
+        "caption": "a airplane that is flying through the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 543528,
+        "caption": "A plane soars hundreds of feet in the air.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 424776,
+        "caption": "a grey colored jet plane flying over a snowy mountain range.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 424776,
+        "caption": "A silver jet is flying high in the sky above the clouds.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 424776,
+        "caption": "A jet fighter flying through the sky above a snow covered mountain.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 424776,
+        "caption": "An airplane with the Swiss flag symbol is flying through the mountains.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 424776,
+        "caption": "An 023 airplane flying solo above blue terrain.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 13348,
+        "caption": "a large air plane on a terminal ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 13348,
+        "caption": "The humongous twin engine airliner is being loaded. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 13348,
+        "caption": "A JAL jetliner on the tarmac at an airport.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 13348,
+        "caption": "A large plane is parked at the airport.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 13348,
+        "caption": "A Japan Airlines plane sits parked at an airport.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 139871,
+        "caption": "Someone has crawled under the plane to check that everything is operational.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 139871,
+        "caption": "An airplane on a runway preparing to take off.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 139871,
+        "caption": "A small plane with the cockpit open and landing gear down",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 139871,
+        "caption": "A jet pilot sits in a plane on a tarmac.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 139871,
+        "caption": "a small plane is sitting on a runway",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 575205,
+        "caption": "A small plane is preparing to land on the strip",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 575205,
+        "caption": "A small airplane coming in for a landing.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 575205,
+        "caption": "A small airplane is in the air on a runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 575205,
+        "caption": "A Plane on runway taking off above ground.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 575205,
+        "caption": "a small plane taking off from a run way in mid air",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 463037,
+        "caption": "A plane site on a grassy country runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 463037,
+        "caption": "a close up of an old plane in a field",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 463037,
+        "caption": "A small passenger airplane sits in the grass at the airport.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 463037,
+        "caption": "White and silver Scottish Airways plane on the ground. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 463037,
+        "caption": " a twin propeller air plane parked in the grass",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110359,
+        "caption": "Commercial jet passing overhead on bright cloudless sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110359,
+        "caption": "A large aircraft in the blue sky by itself",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110359,
+        "caption": "A ground view of an airplane in the sky. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110359,
+        "caption": "A jet plane is flying across the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110359,
+        "caption": "A jetliner flying through a light blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 545407,
+        "caption": "A side view of a plane flying in the clear blue sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 545407,
+        "caption": "A passenger jet that is flying in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 545407,
+        "caption": "An airplane is flying through clear blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 545407,
+        "caption": "A gray and blue plane flies in the blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 545407,
+        "caption": " A jet airliner flying in the air carrying some passengers. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 490413,
+        "caption": "The airplane has landed behind a fence with barbed wire",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 490413,
+        "caption": "An airplane sitting on a runway with a fence around it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 490413,
+        "caption": "The airplane is on the ground, but getting ready for takeoff.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 490413,
+        "caption": "A plane that is sitting on the asphalt behind a fence.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 490413,
+        "caption": "A plane is surrounded by a high barbed-wire fence.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 1761,
+        "caption": "Two planes flying in the sky over a bridge.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 1761,
+        "caption": "A sky photo to jumbo jet airplanes over a bridge.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 1761,
+        "caption": "Two planes fly over a bridge in Sydney, Australia, with the Sydney Opera House in the background.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 1761,
+        "caption": "two jets are flying over a bridge and some water",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 1761,
+        "caption": "Two airplanes flying in the sky above a black bridge.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 408112,
+        "caption": "A small propeller plane sitting on top of an airport tarmac.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 408112,
+        "caption": "Two airplanes are parked on the landing strip.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 408112,
+        "caption": "A pair of planes sitting on an airstrip next to cones.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 408112,
+        "caption": "A P-51 Mustang and B-25 Mitchell on the airport tarmac. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 408112,
+        "caption": "One white and red plane and one grey plane on the ground",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 84752,
+        "caption": "a jet on three pillars in front of a building",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 84752,
+        "caption": "A fighter jet sitting on top of a set of three cement blocks.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 84752,
+        "caption": "An old airplane is mounted on cement posts.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 84752,
+        "caption": "The jet fighter sits on a pedestal across the street from a building.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 84752,
+        "caption": "A bred and silver plane resting on stands outside.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 281693,
+        "caption": "A large jet airplane being loaded with cargo at an airport.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 281693,
+        "caption": "A 747 jumbo passenger jet airplane parked at an airport terminal.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 281693,
+        "caption": "a large air plane on a run way ",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 281693,
+        "caption": "White plane with red and blue detailing sits on tarmac.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 281693,
+        "caption": "an airline with airplanes from one world parked on the air field",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 478862,
+        "caption": "Groups of people walk around a huge, multi engine airplane.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 478862,
+        "caption": "An army plane sitting on the tarmac ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 478862,
+        "caption": "A large propeller airplane parked on an airport tarmac.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 478862,
+        "caption": "A large plane with two propellers  on it ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 478862,
+        "caption": "Groups of people admire a large propeller plane on the runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 183500,
+        "caption": "A person is flying a biplane in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 183500,
+        "caption": "An old biplane that is flying low for the crowd.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 183500,
+        "caption": "A red and white plane flying through a cloudy sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 183500,
+        "caption": "A propeller plane that is flying in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 183500,
+        "caption": "White and red biplane flying through the air. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 109900,
+        "caption": "A group of people who are standing outside by a plane and a car.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 109900,
+        "caption": "A group of people standing around a plane and a vehicle.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 109900,
+        "caption": "A group of people standing on top of a dirt field.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 109900,
+        "caption": "Landing strip with two planes, several men and an SUV.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 109900,
+        "caption": "A group of men standing near a vehicle and planes.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 477441,
+        "caption": "A large passenger jet sitting on top of an airport tarmac.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 477441,
+        "caption": "An airplane pulled up to a gate on the tarmac.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 477441,
+        "caption": "An airplane sits outside, ready at the airport.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 477441,
+        "caption": "A large jet is in the loading area.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 477441,
+        "caption": "An airplane and a person on the tarmac. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 137950,
+        "caption": "A plane flying over several houses and lots of trees. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 137950,
+        "caption": "A plane flies through the sky above some trees. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 137950,
+        "caption": "An old photo of a small plane in the air.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 137950,
+        "caption": "an airplane is flying over some trees and buildings",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 137950,
+        "caption": "A tri-motor, vintage airplane on final approach to land.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 90631,
+        "caption": "A colorful fighter jet flying through a blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 90631,
+        "caption": "A jet with lots of colors leaving a trail in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 90631,
+        "caption": "There is a jet plane that is painted multi color",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 90631,
+        "caption": "A colorful plane leaves a trail of smoke on a clear blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 90631,
+        "caption": "A mulitcolored plane is flying in the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 187745,
+        "caption": "a small yellow Cessna plane flying on a clear day",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 187745,
+        "caption": "A toy plane flies through a cloudless sky. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 187745,
+        "caption": "A small plane flying through a blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 187745,
+        "caption": "A prop plane flies in a clear sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 187745,
+        "caption": "A yellow airplane flying in the clear sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 163746,
+        "caption": "A pretty young girl standing next to another pretty young girl on a beach.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 163746,
+        "caption": "people walking onto the beach from the water",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 163746,
+        "caption": "Two almost identical photos with some minor cropping show two young girls standing on the coast with people in the water in the background as a plane flies overhead",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 163746,
+        "caption": "Girls playing on a beach with an airplane flying above them. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 163746,
+        "caption": "people on the beach really close to the water",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 229747,
+        "caption": "A photo of an outside with various things in the scene.\n",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 229747,
+        "caption": "A airplane that is flying in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 229747,
+        "caption": "a large plane is flying in the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 229747,
+        "caption": "An air plane flies in a dark grey sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 229747,
+        "caption": "a large jet airplane flying in the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 567432,
+        "caption": "A colorful plane flying over head and telephone wires",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 567432,
+        "caption": "A ground view of the belly side of a air plane.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 567432,
+        "caption": "A jet airplane is flying through the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 567432,
+        "caption": "A red airplane jet flies over power lines in an empty sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 567432,
+        "caption": "A plane flies by next to some power lines ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 571857,
+        "caption": "In the desert, two people are sitting next to a small propeller plane next to a tent with other planes in the background.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 571857,
+        "caption": "A couple of people sitting in chairs behind an airplane.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 571857,
+        "caption": "A man and woman who have set up camp on a sandy beach",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 571857,
+        "caption": "two people outside sitting on chairs with planes around them.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 571857,
+        "caption": "two people are camping out in the desert",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 190676,
+        "caption": "A panoramic shot of several people standing near a plane.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 190676,
+        "caption": "There is a group of people gathered around an airplane outdoors. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 190676,
+        "caption": "The people was outside about to aboard the plane",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 190676,
+        "caption": "Men lined up an a runway in a desert greet an arriving jet plane.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 190676,
+        "caption": "People lined up near an airplane and others in military uniform.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272136,
+        "caption": "A large propeller plane mounted to the ceiling of a building.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272136,
+        "caption": "The airplane is store in the hangar for people to take a look at it. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272136,
+        "caption": "A military plane parked in a hanger with a person sitting nearby.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272136,
+        "caption": "Some type of vehicle with a number on its side is pared inside a garage.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272136,
+        "caption": "An air hanger with an old fighter plane inside.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 22396,
+        "caption": "a plane flying by a bright moon in the sky\n",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 22396,
+        "caption": "an air plane in the sky with  a three quarter moon out",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 22396,
+        "caption": "a jumbo jet flies through the sky with the moon peeking out",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 22396,
+        "caption": "A passenger jet is flying across the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 22396,
+        "caption": "A commercial plane flying by the perspective of a half moon.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272049,
+        "caption": "A large yellow dump truck sitting on green lawn.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272049,
+        "caption": "Large brown truck parked on the grass next to an airplane. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272049,
+        "caption": "A construction truck sits in a yard near the airport.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272049,
+        "caption": "A yellow hauling truck waits at an airport",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 272049,
+        "caption": "A yellow truck is parked on grass near a jumbo jet on display.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 205401,
+        "caption": "A plane floating on top of a lake surrounded by mountains.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 205401,
+        "caption": "Lake or river beach with plane in shallow water. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 205401,
+        "caption": "A seaplane parked on the shallow end of the sea as a man approaches. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 205401,
+        "caption": "A BIPLANE AND A SMALL BOAT OUT ON THE WATER",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 205401,
+        "caption": "A small boat in water beside a sea airplane.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 520324,
+        "caption": "Someone is driving a cart near a single engine airplane.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 520324,
+        "caption": "a small air plane on a small run way",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 520324,
+        "caption": "A small airplane that is parked near a run way.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 520324,
+        "caption": "A small airplane sitting next to an airport runway.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 520324,
+        "caption": "A crop dusting plane next to grassy field and tree.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 196185,
+        "caption": "A jetliner taking off from an airport runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 196185,
+        "caption": "Plane taking off the runway with it's landing gears still out.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 196185,
+        "caption": "A jet airplane taking off from a runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 196185,
+        "caption": "A large airplane is ascending from the runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404479,
+        "caption": "A large airplane is ascending from the runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 196185,
+        "caption": "A passenger jet airline taking off from the runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 71711,
+        "caption": "A large airplane museum with old war planes.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 71711,
+        "caption": "A group of old planes on display in a museum",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 71711,
+        "caption": "An indoor museum exhibit features several old planes. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 71711,
+        "caption": "An air hanger with two world war two airplanes parked next to each other.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 71711,
+        "caption": "A group of people walk around old planes in a hanger.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 217060,
+        "caption": "The airplane is flying near a cloud in the sky. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 217060,
+        "caption": "A prop plane is flying through the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 217060,
+        "caption": "a small air plane flying in the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 217060,
+        "caption": "A propeller plane that is flying in the air.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 39484,
+        "caption": "A variety of cars on a street with buildings.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 39484,
+        "caption": "A variety of shops and stores on a busy city street.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 39484,
+        "caption": "A busy street crammed with businesses and parked cars.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 39484,
+        "caption": "A street full of cars that are driving and parked and a group of people sitting outside eating.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 39484,
+        "caption": "A city has colorful buildings and signs among cars.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 114770,
+        "caption": "A green military jeep, and motorcycle on display.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 114770,
+        "caption": "this is a jeep and a bike parked together",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 114770,
+        "caption": "Display featuring military vehicles and large gun with huge mural.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 114770,
+        "caption": "A large gun, a jeep, a motorcycle, and a warplane are in front of a war backdrop. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 114770,
+        "caption": "A museum with an old military motorcycle and jeep on display. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 485237,
+        "caption": "Two large jets sitting on top of an airport runway.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 485237,
+        "caption": "Two commercial jets on a runway at an airport.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 485237,
+        "caption": "Two planes are on a runway beside trucks.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 485237,
+        "caption": "Two jumbo jet air planes on a runway facing each other.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 485237,
+        "caption": "Two large jets facing each other at an airport.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 208901,
+        "caption": "A large passenger jet flying through a gray sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 208901,
+        "caption": "A plane is flying in a clear sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 208901,
+        "caption": "A modern jet airplane flying up in the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 208901,
+        "caption": "A gray airplane is flying high in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 208901,
+        "caption": "An airplane flying high in the sky on a partly cloudy day.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404479,
+        "caption": "Japanese airliner just taking off with snow capped mountains in the background.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404479,
+        "caption": "A passenger plane sits on a runway with mountains behind it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404479,
+        "caption": "An airplane landing on a runway in an airport",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 504000,
+        "caption": "An airplane is vintage and is on display.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 504000,
+        "caption": "People are gathered to see the blue jet plane on display. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 504000,
+        "caption": "Blue-and-white jet airplane sitting at an airport runway. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 504000,
+        "caption": "A jet fighter style airplane parked near a crowd of people who are walking about. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 504000,
+        "caption": "a blue jet is sitting next to a sign",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 96549,
+        "caption": "An airplane on the runway either just landed or ready to take off.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 96549,
+        "caption": "An Egyptian airlines plane landing at an airport.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 96549,
+        "caption": "A commercial plane on the strip to take off.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 96549,
+        "caption": "A jumbo jet touching down on the runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 96549,
+        "caption": "Egyptair airplane standing on the tarmac at airport",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110721,
+        "caption": "a large plane is docked at the airport and connected",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110721,
+        "caption": "a plane with the attachment to let passengers on the plane ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110721,
+        "caption": "an airplane with the loading ramp in place",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110721,
+        "caption": "A plane pulled up to a gate with the jet bridge out. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 110721,
+        "caption": "a large airplane that is on a runway",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 392481,
+        "caption": "A fighter jet plane ascending into the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 392481,
+        "caption": "A fighter jet gaining altitude in a cloudy sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 392481,
+        "caption": "An aircraft is flying in a cloudy sky. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 392481,
+        "caption": "A military jet taking off into the sky ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 392481,
+        "caption": "A nice jet plane flying into some grey skies.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404128,
+        "caption": "A propellor airplane is on a grassy runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404128,
+        "caption": "The older airplane is about ready to take off from the runway. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404128,
+        "caption": "A plan is shown sitting on the pavement.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404128,
+        "caption": "A prop airplane parked along the side of a runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 404128,
+        "caption": "An old plane sitting on the grass beside the runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 497568,
+        "caption": "A commercial plane being serviced by two people.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 497568,
+        "caption": "A large white airplane parked in a stationary position.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 497568,
+        "caption": "An airplane sits on a runway in a airport",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 497568,
+        "caption": "An Alaska Air Lines passenger jet at an airport terminal.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 497568,
+        "caption": "a very large airplane that is on a runway",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 500049,
+        "caption": "A plane is parked in an airport field.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 500049,
+        "caption": "A large jetliner sitting on top of an airport tarmac.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 500049,
+        "caption": "A Malaysian airplane that is stationary on the runway. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 500049,
+        "caption": "An airplane is parked on a lot near hills.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 500049,
+        "caption": "The airplane is on the tarmac at the airport.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 161044,
+        "caption": "A couple of airplanes flying under a cloudy sky.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 161044,
+        "caption": "The two airplanes are in the air next to eachother",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 161044,
+        "caption": "Pair of small planes flying near each other on stormy day.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 161044,
+        "caption": "Two airplanes are flying in the cloudy sky.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 161044,
+        "caption": "Two planes that are flying in the sky.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 144114,
+        "caption": "A small glider flying through the sky with a pilot.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 144114,
+        "caption": "A small red and white plane flying in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 144114,
+        "caption": "A small airplane is flying through the empty sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 144114,
+        "caption": "A red and white airplane in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 144114,
+        "caption": "a man flying a small plane in the  clear weather ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 396903,
+        "caption": "Small red propeller airplane sitting on an airport runway. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 396903,
+        "caption": "A bright red, very small plane waits on the runway with a red BAE SYSTEMS flag hanging behind it on a building. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 396903,
+        "caption": "A small red plane on a open road.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 396903,
+        "caption": "A red fighter plane on runway next to building.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 396903,
+        "caption": "The plane is on the runway near the building.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52412,
+        "caption": "A jetliner wing flying over the top of a parking.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52412,
+        "caption": "an air plane wing with a parking lot with cars",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52412,
+        "caption": "View from an airplane looking looking out over large parking lot.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52412,
+        "caption": "A view of several parking lots from an airplane. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 52412,
+        "caption": "a big parking with a bunch of cars parked in it",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 208208,
+        "caption": "a view of mountains from the window of a jet airplane",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 208208,
+        "caption": "A view of mountains out of an airplane window.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 208208,
+        "caption": "A large jetliner wing flying over a mountain range.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 208208,
+        "caption": "An airplane wing hovers over a big valley.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 208208,
+        "caption": "Mountains can be seen through the window of a plane. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 98520,
+        "caption": "A large passenger jet sitting on top of an airport runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 98520,
+        "caption": "A large commercial airplane sitting on a runway",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 98520,
+        "caption": "An airplane makes its way down a snowy runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 98520,
+        "caption": "A plane siting on a showy tarmac at an airport",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 98520,
+        "caption": "A jet is towed down the tarmac on a dreary gray day.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 388258,
+        "caption": "There is a bike that is parked by a bench, and an airplane that is high in the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 388258,
+        "caption": "The bike is parked next to the empty bench. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 388258,
+        "caption": "A bicycle leaning against a bench as an airplane flies by.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 388258,
+        "caption": "a cannondale bicycle leaning against a bench and an airplane in the background",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 388258,
+        "caption": "An airplane flies by a bicycle leaned up against a bench",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 293324,
+        "caption": "A group of large passenger jets parked in front of an airport.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 293324,
+        "caption": "Three Finnair planes are parked at the gates on this side of the terminal.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 293324,
+        "caption": "Several commercial planes sit on a runway next to an airport.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 293324,
+        "caption": "Multiple commercial passenger airplanes at their gate at an airport.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 293324,
+        "caption": "A group of planes near control tower in an airport.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 524850,
+        "caption": "A crowd of people standing around a bus next to a parked jetliner.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 524850,
+        "caption": "A group of people standing next to a bus under an airplane.",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 524850,
+        "caption": "People getting on to a bus from an airplane on the tarmac",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 524850,
+        "caption": "An upper shot of several people standing near a plane. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 524850,
+        "caption": "A bus loads and unloads passengers next to a plane. ",
+        "label": 2,
+        "binary_label": 2
+    },
+    {
+        "image_id": 131386,
+        "caption": "A group of airplanes in the sky in formation. ",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 131386,
+        "caption": "The jets are flying through the air in unison.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 131386,
+        "caption": "A row of four trick Navy Planes flying in sequence.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 131386,
+        "caption": "The planes are all flying in the same direction.",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 131386,
+        "caption": "a formation of fighter jets flying by in the air",
+        "label": 4,
+        "binary_label": 2
+    },
+    {
+        "image_id": 469174,
+        "caption": "The plane was flying high near the flag in the air",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 469174,
+        "caption": "A plane flying low with an American flag flying in the foreground.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 469174,
+        "caption": "A plane flying in the sky near an American flag.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 469174,
+        "caption": "A passenger jet airplane flies low over trees with an American flag in the foreground.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 469174,
+        "caption": "a large airplane that is flying through the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 338325,
+        "caption": "A striped plane flying up into the sky as the sun shines behind it.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 338325,
+        "caption": "An airplane is ascending into the white sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 338325,
+        "caption": "An American Airlines plane is in the sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 338325,
+        "caption": "A red, white, and blue plane is in the sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 338325,
+        "caption": "A plane flies through the sky at an angle. ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 456865,
+        "caption": "An airplane just landed on the runway ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 456865,
+        "caption": "A large plane sits on the large runway.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 456865,
+        "caption": "A large white airplane parked upon a runway",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 456865,
+        "caption": "an airplane sitting on the tarmac with clouds above it",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 456865,
+        "caption": "airplane on the runway and a cloudy sky",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 502347,
+        "caption": "A plane passing over a harbor, on a clear day.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 502347,
+        "caption": "a little plane flying above a lake full of boats ",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 502347,
+        "caption": "The airplane is flying low over the town.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 502347,
+        "caption": "A dock that is separating the harbor from the ocean.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 502347,
+        "caption": "A plane flies over the hills above a developed shoreline.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 410221,
+        "caption": "A jet liner flying above in the clear blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 410221,
+        "caption": "An airliner as seen from the ground, through some power lines.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 410221,
+        "caption": "A passenger jet is flying through a blue sky.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 410221,
+        "caption": "A flying airplane being viewed through power lines.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 410221,
+        "caption": "A plane that is flying in the sky above wires.",
+        "label": 1,
+        "binary_label": 1
+    },
+    {
+        "image_id": 571313,
+        "caption": "A small room with different types of furniture and appliances that it makes it hard to tell what type of room it is.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 338428,
+        "caption": "A truck painted green with designs parked by other vehicles.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 567898,
+        "caption": "A plate of food sits next to its dessert",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 27696,
+        "caption": "A vegetable pizza on a plate on a table.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 139077,
+        "caption": "A young boy holding a Nintendo Wii game controller.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 171740,
+        "caption": "A room with a day bed is very cluttered and dusty.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 272212,
+        "caption": "Cows grazing on the grass in front of a building.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 443426,
+        "caption": "The man is sitting down posing for a picture.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 415748,
+        "caption": "a man in a white shirt is riding an elephant and some buildings",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 104669,
+        "caption": "A plate on a table with with different types of food.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 155179,
+        "caption": "a close up of a cake on a plate on a table",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 568213,
+        "caption": "a man is throwing a frisbee in a field",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 135670,
+        "caption": "A bike behind a rail for safety on a train ride.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 235836,
+        "caption": "A child playing with a plastic bat and ball in a yard next to a garage. ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 133778,
+        "caption": "a calf suckingling on a cows utters in grass",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 431140,
+        "caption": "A toilet and sink that is in a bathroom.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 407518,
+        "caption": "A bird is perched on top of a wire fence",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 520659,
+        "caption": "A photo of a group of surfboards under and awning.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 327617,
+        "caption": "An older photo of a woman on a tennis court posing with her raquet.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 488673,
+        "caption": "A couple celebrating a birthday in a kitchen.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 51008,
+        "caption": "A cat sitting in front of a laptop computer.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 155451,
+        "caption": "a red and green stop light under a bridge",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 119677,
+        "caption": "A piece of cake sitting on a square plate.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 226111,
+        "caption": "A sign prohibiting skating on the sidewalk with black and red writing.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 23034,
+        "caption": "a man smiles as some horses pass by him",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 439525,
+        "caption": "A man and a woman cutting up a small white cake.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 163155,
+        "caption": "A cat crouched over sitting by a brick wall.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 433774,
+        "caption": "A dual parking meter near the grassy area of a residential area.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 216516,
+        "caption": "A man that is standing on ski's in the snow.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 271997,
+        "caption": "A portrait picture of a young man in a suit and tie.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 521819,
+        "caption": "A group of youngsters contend for a frisbee in a park-like setting.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 211042,
+        "caption": "A cat is propped up on the toilet seat.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 494427,
+        "caption": "a laptop computer is turned on at a table",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 214869,
+        "caption": "A close shot of someone pointing to their cased Alltel phone. ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 539445,
+        "caption": "A large red electrical passenger train riding down railroad tracks.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 564127,
+        "caption": "A bathroom with black and white toilet and a tiled floor.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 119445,
+        "caption": "A group of men on a field playing baseball.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 439773,
+        "caption": "A baby crawls on the floor beside a blue cell phone.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 116589,
+        "caption": "The group of zebra are eating hay together.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 446206,
+        "caption": "A bus is passing in front of big buildings and beautiful gardens.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 48153,
+        "caption": "A foot wearing a pointy pink flat shoe rested upon a bench.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 135410,
+        "caption": "A coin meter that is next to a ladder with balls on it.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 214200,
+        "caption": "A stop sign vandalized with an \"eating animals\" sticker below the word \"stop.\"",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 342006,
+        "caption": "Tall building sitting on the rivers edge and a barge,",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 311928,
+        "caption": "a small boy with a bat and ball on some grass",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 280779,
+        "caption": "A person on cross country skis while it's snowing ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 255912,
+        "caption": "There is a sandwich and lettuce on a plate",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 412894,
+        "caption": "People walk down a busy city street, with traffic light.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 85089,
+        "caption": "People holding up for wineglasses to each other. ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 519764,
+        "caption": "a cat sitting in an office chair. ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 474786,
+        "caption": "A large mirror reflecting a bathroom sing counter.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 473118,
+        "caption": "A picture of a person doing a skateboarding trick.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 397133,
+        "caption": "A table with pies being made and a person standing near a wall with pots and pans hanging on the wall.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 193494,
+        "caption": "Child's bed and colorful quilt surrounded by blue plastic walls.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 533145,
+        "caption": "Someone holding a Wii remote towards a TV.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 311909,
+        "caption": "The #41 bus parked at the curb waiting for passengers to board",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 356387,
+        "caption": " Cityscape of pedestrians enjoying an old European city",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 21465,
+        "caption": "A blue shelving unit has a vase and metal cups on it. ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 7816,
+        "caption": "A guy on a motorcycle with some people watching.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 540466,
+        "caption": "A woman stands in a garden holding an umbrella.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 380203,
+        "caption": "The white horse is standing beside tall plants. ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 189451,
+        "caption": "A mostly eaten chocolate cake with one slice left. ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 112997,
+        "caption": "a man that is holding some kind of radio ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 261161,
+        "caption": "A dog with a leash on is sitting near a park bench",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 446206,
+        "caption": "a monorail going down the track as a bus parks by the side of a road ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 476215,
+        "caption": "A man standing behind two brown horses on a dirt field.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 230819,
+        "caption": "A surfer rides a wave in front of a long beachside boardwalk.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 89271,
+        "caption": "Tabby cat with green eyes wearing a hat",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 377670,
+        "caption": "Teddy bears are re-enacting soldiers on the beach with others looking on.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 257084,
+        "caption": "A guy on a skateboard about to go down a ramp.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 52996,
+        "caption": "Some people are in a kitchen with a big pot on the stove.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 5060,
+        "caption": "A man sitting cross legged in front of a mirror on the floor taking a self portrait ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 491867,
+        "caption": "This man has a paper flower and a green tie",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 261888,
+        "caption": "A bike with horses in background of the rider",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 253452,
+        "caption": "A hearty fish dinner, with a side of onion rings and coffee.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 429718,
+        "caption": "Smoke is emanating from a train that is on a track that is curving.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 519764,
+        "caption": "Cat lethargically on comfy computer chair looking relaxed.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 397354,
+        "caption": "A group of friends hanging out in a kitchen together.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 332845,
+        "caption": "A man sits on his bed with a laptop in his bedroom as a ray of sunlight streams through the window. ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 361586,
+        "caption": "Some people are checking in at the ticket counter somewhere in Asia.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 363784,
+        "caption": "A white bath tub sitting under a window.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 229311,
+        "caption": "An empty kitchen sink underneath a window, on the counter.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 167898,
+        "caption": "A shower stall, a sink and a toilet in a bathroom.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 308193,
+        "caption": "a clock tower behind a building with a sky background",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 563882,
+        "caption": "A woman sitting in a seat holding a cell phone.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 565045,
+        "caption": "A child next to a standing shower in a blue bathroom.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 69138,
+        "caption": "A street scene with a close of of a stop light.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 175535,
+        "caption": "A meal is on a plate on a dining table.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 318908,
+        "caption": "A small white dog looking into a camera.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 489305,
+        "caption": "A fruit salad that includes a variety of fruit.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 237864,
+        "caption": "Adult elephant running after a small brown dog. ",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 519338,
+        "caption": "a train sitting on the tracks next to a mountain side",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 442463,
+        "caption": "A child in a helmet and safety pads riding a skateboard.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 5992,
+        "caption": "A herd of sheep standing on top of a green grass covered yard.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 112798,
+        "caption": "a cat is laying on a table near a laptop and papers",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 177489,
+        "caption": "a man and a woman sitting at table",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 515828,
+        "caption": "A woman holding a tennis racket in her hand.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 347335,
+        "caption": "A plate of food with meat, eggs and potatoes.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 263299,
+        "caption": "A train riding along the tracks through the woods.",
+        "label": 0,
+        "binary_label": 0
+    },
+    {
+        "image_id": 88462,
+        "caption": "A school bus waits in traffic behind a car. ",
+        "label": 0,
+        "binary_label": 0
+    }
+]
