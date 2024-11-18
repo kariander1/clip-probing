@@ -17,7 +17,7 @@ class Dataset_Type(Enum):
     RELATIONAL_POSITIONAL = 1
     RELATIONAL_POSITIONAL_LLM = 2
     COLORS_MULTILABEL = 3
-
+    COUNT_AIRPLANES = 4
 
 class OptimizerName(Enum):
     ADAM = 0

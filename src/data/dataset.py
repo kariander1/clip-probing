@@ -6,7 +6,7 @@ from torch.utils.data import Dataset
 from datasets import load_dataset
 from sklearn.model_selection import StratifiedShuffleSplit
 from torch.utils.data import DataLoader
-
+from tqdm import tqdm
 class MultiLabelRelationalDataset(Dataset):
     """
     Handles a multi-label relational dataset where each sample has a list of labels.
@@ -96,7 +96,7 @@ class MultiLabelRelationalDataset(Dataset):
         
     def get_all_labels(self):
         """Returns a NumPy array of multi-hot vectors for all samples in the dataset."""
-        all_labels = [self._labels_to_multi_hot(self.dataset[idx][self.label_column]) for idx in range(len(self.dataset))]
+        all_labels = [self._labels_to_multi_hot(self.dataset[idx][self.label_column]) for idx in tqdm(range(len(self.dataset)))]
         return np.array(all_labels)
     
     def split_dataset(self, config):
@@ -201,7 +201,7 @@ class SingleLabelRelationalDataset(Dataset):
     
     def get_all_labels(self):
         """Returns a list of all labels in the dataset."""
-        return [self.dataset[i][self.label_column] for i in range(len(self.dataset))]
+        return [self.dataset[i][self.label_column] for i in tqdm(range(len(self.dataset)))]
     
         
     def split_dataset(self, config):
@@ -239,19 +239,6 @@ class SingleLabelRelationalDataset(Dataset):
         test_loader = DataLoader(test_dataset, batch_size=config.train.batch_size, shuffle=False)
         
         return train_loader, val_loader, test_loader
-    
-# Step 4: Define a custom collate function to handle variable-length inputs
-# def collate_fn(batch):
-#     input_ids = [item[0] for item in batch['']]
-#     if isinstance(batch[0][1], torch.Tensor):
-#         labels = torch.stack([item[1] for item in batch])
-#     else:
-#         labels = torch.tensor([item[1] for item in batch])
-    
-#     # Pad the input_ids to the same length
-#     input_ids_padded = torch.nn.utils.rnn.pad_sequence(input_ids, batch_first=True, padding_value=0)
-    
-#     return input_ids_padded, labels
 
 def get_dataset(config,dataset_class, dataset_path, processor):
     if not os.path.exists(dataset_path):

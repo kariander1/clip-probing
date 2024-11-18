@@ -9,7 +9,7 @@ from src.utils.enums import TextModel, Dataset_Type, OptimizerName
 class DatasetConfig:
     prompt_column: str = "prompt"
     label_column: str = "label"
-    dataset_type: Dataset_Type = Dataset_Type.COLORS_MULTILABEL
+    dataset_type: Dataset_Type = Dataset_Type.RELATIONAL_POSITIONAL
 
 @dataclass
 class TrainConfig:
@@ -20,22 +20,22 @@ class TrainConfig:
     train_split: float = 0.8  # Train split
     val_split: float = 0.1  # Validation split
     seed: int = 42  # Seed for reproducibility
-    patience: int = 3  # Patience for early stopping
+    patience: int = 7  # Patience for early stopping
     
 @dataclass
 class LoggingConfig:
-    plot_distribution: bool = True  # Plot label distribution
+    plot_distribution: bool = False  # Plot label distribution
     log_interval: int = 10  # Log interval
 
 @dataclass
 class ModelConfig:
-    model_type: TextModel = TextModel.CLIP_VIT_B_32
+    model_type: TextModel = TextModel.CLIP_VIT_B_16
 
 @dataclass
 class Config:
     output_root: Path = field(default=Path("./output"))
     checkpoint_root: Path = field(default=Path("./checkpoints"))
-    override_results: bool = True  # Override existing checkpoints
+    override_results: bool = False  # Override existing checkpoints
     dataset: DatasetConfig = field(default_factory=DatasetConfig)
     train: TrainConfig = field(default_factory=TrainConfig)
     model: ModelConfig = field(default_factory=ModelConfig)

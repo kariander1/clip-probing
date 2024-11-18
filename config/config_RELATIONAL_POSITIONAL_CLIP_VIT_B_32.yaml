@@ -1,0 +1,21 @@
+checkpoint_root: checkpoints
+dataset:
+  dataset_type: RELATIONAL_POSITIONAL
+  label_column: label
+  prompt_column: prompt
+log:
+  log_interval: 10
+  plot_distribution: true
+model:
+  model_type: CLIP_VIT_B_32
+output_root: output
+override_results: true
+train:
+  batch_size: 4
+  epochs: 50
+  lr: 0.001
+  optimizer: ADAM
+  patience: 7
+  seed: 42
+  train_split: 0.8
+  val_split: 0.1

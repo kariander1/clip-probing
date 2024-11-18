@@ -137,6 +137,8 @@ def plot_misclassification_distribution(probe_name: str, accuracy: float, miscla
         output_dir: Directory where the output plots will be saved.
     """
     # Sort labels lexicographically
+    if not misclassified_labels:
+        return
     sorted_labels_and_counts = sorted(misclassified_labels.items())
     labels, counts = zip(*sorted_labels_and_counts) if sorted_labels_and_counts else ([], [])
 
@@ -157,6 +159,8 @@ def plot_misclassification_distribution(probe_name: str, accuracy: float, miscla
 
 
 def plot_top_misclassifications(probe_name: str, accuracy: float, misclassified_labels: Counter, reverse_misclassified_labels: Counter, swapped_relation_labels: Counter, swapped_relation_and_nouns_labels: Counter, output_dir: str):
+    if not misclassified_labels:
+        return
     # Accumulate misclassification counts per noun and relation
     noun_counts = Counter()
     relation_counts = Counter()

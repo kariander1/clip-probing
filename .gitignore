@@ -4,3 +4,5 @@ log*
 *.sbatch
 checkpoints
 output
+slurm
+jobs.sh
