@@ -1,19 +1,22 @@
+checkpoint_root: checkpoints
 dataset:
-  offline_mode: false  # Set to true for using offline dataset
-  dataset_file: "data/relational_dataset.json"  # Path to offline dataset file if offline_mode is true
-  prompt_column: "prompt"
-  label_column: "label"
-  relational_words: ["behind", "below", "beneath", "between"]
-  num_variations: 10
-  num_prompts: 5
-  categories: ["animals", "objects", "people"]
-
-train:
-  epochs: 20
-  batch_size: 2
-  lr: 0.001
-
+  dataset_type: COLORS_MULTILABEL
+  label_column: label
+  prompt_column: prompt
+log:
+  log_interval: 10
+  plot_distribution: true
 model:
-  clip_model_name: "openai/clip-vit-base-patch32"
-  input_dim: 512
-  num_classes: 3
+  model_type: CLIP_VIT_B_32
+output_root: output
+override_results: true
+train:
+  batch_size: 4
+  criterion: logits_loss
+  epochs: 50
+  lr: 0.001
+  optimizer: adam
+  patience: 3
+  seed: 42
+  train_split: 0.8
+  val_split: 0.1

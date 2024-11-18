@@ -30,23 +30,23 @@ def get_text_processor_and_model(text_encoder: TextModel, device="cuda"):
     if text_encoder == TextModel.CLIP_VIT_B_32:
         model = model.text_model
         tokenizer_max_length = processor.tokenizer.model_max_length
-        hidden_size = model.config.projection_dim
+        hidden_size = model.config.hidden_size
     elif text_encoder == TextModel.CLIP_VIT_B_16:
         model = model.text_model
         tokenizer_max_length = processor.tokenizer.model_max_length
-        hidden_size = model.config.projection_dim
+        hidden_size = model.config.hidden_size
     elif text_encoder == TextModel.CLIP_VIT_H_14:
         model = model.text_model
         tokenizer_max_length = processor.tokenizer.model_max_length
-        hidden_size = model.config.projection_dim
+        hidden_size = model.config.hidden_size
     elif text_encoder == TextModel.CLIP_VIT_G_14:
         model = model.text_model
         tokenizer_max_length = processor.tokenizer.model_max_length
-        hidden_size = model.config.projection_dim
+        hidden_size = model.config.hidden_size
     elif text_encoder == TextModel.CLIP_VIT_L_14:
         model = model.text_model
         tokenizer_max_length = processor.tokenizer.model_max_length
-        hidden_size = model.config.projection_dim
+        hidden_size = model.config.hidden_size
     elif text_encoder == TextModel.BERT_BASE_UNCASED:
         tokenizer_max_length = processor.model_max_length
         hidden_size = model.config.hidden_size
@@ -84,6 +84,8 @@ def dataset_type_to_class(dataset_type: Dataset_Type):
         return SingleLabelRelationalDataset
     elif dataset_type == Dataset_Type.RELATIONAL_POSITIONAL_LLM:
         return SingleLabelRelationalDataset
+    elif dataset_type == Dataset_Type.COUNT_AIRPLANES:
+        return SingleLabelRelationalDataset
     else:
         raise ValueError(f"Unknown dataset type: {dataset_type}")
     
@@ -93,6 +95,7 @@ def dataset_type_to_path(dataset_type: Dataset_Type) -> str:
         Dataset_Type.RELATIONAL: "data/relation_prediction.json",
         Dataset_Type.RELATIONAL_POSITIONAL: "data/relational_dataset.json",
         Dataset_Type.RELATIONAL_POSITIONAL_LLM: "data/relational_dataset_llm.json",
+        Dataset_Type.COUNT_AIRPLANES: "data/airplane_captions_training.json",
     }
 
     if dataset_type not in paths:
@@ -109,6 +112,8 @@ def dataset_labels_are_super_labels(dataset_type: Dataset_Type) -> bool:
         return True
     elif dataset_type == Dataset_Type.RELATIONAL_POSITIONAL_LLM:
         return True
+    elif dataset_type == Dataset_Type.COUNT_AIRPLANES:
+        return False
     else:
         raise ValueError(f"Unknown dataset type: {dataset_type}")
 def optimizer_name_to_class(optimizer_name: OptimizerName):
@@ -129,6 +134,8 @@ def dataset_type_to_criterion(dataset_type: Dataset_Type):
     elif dataset_type == Dataset_Type.RELATIONAL_POSITIONAL:
         return torch.nn.CrossEntropyLoss()
     elif dataset_type == Dataset_Type.RELATIONAL_POSITIONAL_LLM:
+        return torch.nn.CrossEntropyLoss()
+    elif dataset_type == Dataset_Type.COUNT_AIRPLANES:
         return torch.nn.CrossEntropyLoss()
     else:
         raise ValueError(f"Unknown dataset type: {dataset_type}")

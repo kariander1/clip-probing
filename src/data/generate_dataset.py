@@ -3,74 +3,22 @@ import torch
 import re
 from tqdm import tqdm
 from datasets import Dataset as HFDataset
-from transformers import AutoProcessor, LlavaForConditionalGeneration
 from src.config import Config
 
 # Relational words to use for prompt generation
-# RELATIONAL_WORDS = ["behind", "looking at", "to the right of", "pointing at", "inside a house, and outside is"]
-# RELATIONAL_WORDS = ["behind", "looking at"]
 RELATIONAL_WORDS = ["on", "behind", "on the left of", "inside"]
 
 # Base entities for generating relational sentences
-# BASE_ENTITIES = ["man","woman", "dog", "cat", "car", "tree", "house", "bird"]
 BASE_ENTITIES = list(set(["bowl","plate","cup","fork","knife","spoon","glass","bottle","table", "desk", "chair", "sofa", "bed", "lamp", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush", "toilet", "sink", "refrigerator", "oven", "microwave", "toaster", "sink", "mirror", "bathtub", "shower", "keyboard", "mouse", "remote", "cell phone", "microwave", "oven", "toaster", "refrigerator", "sink", "book", "clock"]))
-# BASE_ENTITIES = ["dog", "cat"]
 BASE_PROMPTS = ["", "A photo of", "An image of", "A picture of", "A drawing of", "A painting of", "A high resolution image of", "Pastoral background,","rainy,","cloudy,","sunny,", "A depiction of", "A photograph of", "A close-up of", "A snapshot of", "A close-up close-up drawing of"]
 def generate_variations(base_prompt ,entity1, entity2, relational_word):
     return [
         ([f"{base_prompt} a {entity1} {relational_word} a {entity2}"], [f"{'_'.join(relational_word.split(' '))}_{entity1}_{entity2}"]),
         ([f"{base_prompt} a {entity2} {relational_word} a {entity1}"], [f"{'_'.join(relational_word.split(' '))}_{entity2}_{entity1}"])
     ]
-def generate_variations_llm(base_prompt ,entity1, entity2, relational_word, model, processor, device, num_variations=10):
-    variation_1_prompt = f"{base_prompt} a {entity1} {relational_word} a {entity2}"
-    variation_2_prompt = f"{base_prompt} a {entity2} {relational_word} a {entity1}"
-
-    # Format prompts for LLaVA model using its processor
-    conversation_1 = [
-        {
-            "role": "user",
-            "content": [{"type": "text", "text": f"Please generate {num_variations} variations of the following prompt: '{variation_1_prompt}'"}]
-        }
-    ]
-    conversation_2 = [
-        {
-            "role": "user",
-            "content": [{"type": "text", "text": f"Please generate {num_variations} variations of the following prompt: '{variation_2_prompt}'"}]
-        }
-    ]
-
-    # Process the prompt for the LLaVA model
-    prompt_1 = processor.apply_chat_template(conversation_1, add_generation_prompt=True)
-    prompt_2 = processor.apply_chat_template(conversation_2, add_generation_prompt=True)
-
-    # Generate the responses using LLaVA
-    inputs_1 = processor(text=prompt_1, return_tensors='pt').to(device)
-    inputs_2 = processor(text=prompt_2, return_tensors='pt').to(device)
-
-    output_1 = model.generate(**inputs_1, max_new_tokens=200)
-    output_2 = model.generate(**inputs_2, max_new_tokens=200)
-
-    variation_1 = processor.decode(output_1[0], skip_special_tokens=True).strip().split('ASSISTANT:')[1].strip().strip('\'')
-    variation_2 = processor.decode(output_2[0], skip_special_tokens=True).strip().split('ASSISTANT:')[1].strip().strip('\'')
-
-    variations_1 = [s.strip().strip('\"').strip('\'') for s in re.split(r'\d+\.\s*', variation_1)[1:]]
-    variations_2 = [s.strip().strip('\"').strip('\'') for s in re.split(r'\d+\.\s*', variation_2)[1:]]
-    if len(variations_1) < num_variations or len(variations_2) < num_variations:
-        print(f"Warning: Could not generate {num_variations} variations for the prompt: '{variation_1_prompt}' or '{variation_2_prompt}'")
-        return [[[],[]],[[],[]]]
-    return [
-        (variations_1, [f"{'_'.join(relational_word.split(' '))}_{entity1}_{entity2}"]*len(variations_1)),
-        (variations_2, [f"{'_'.join(relational_word.split(' '))}_{entity2}_{entity1}"]*len(variations_2))
-        ]
 
 @pyrallis.wrap()
 def main(config: Config):
-    # Initialize a text-generation pipeline (e.g., GPT-2, GPT-Neo)
-    # text_generator = pipeline("text-generation", model="llava-hf/llava-1.5-13b-hf")
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    # model = LlavaForConditionalGeneration.from_pretrained("llava-hf/llava-1.5-13b-hf", torch_dtype=torch.float32).to(device)
-    # processor = AutoProcessor.from_pretrained("llava-hf/llava-1.5-13b-hf")
-    
     data = {
         "prompt": [],
         "label": []
@@ -81,7 +29,6 @@ def main(config: Config):
         for i, entity1 in enumerate(BASE_ENTITIES):
             for entity2 in BASE_ENTITIES[i + 1:]:
                 for base_prompt in BASE_PROMPTS:
-                    # variations = generate_variations_llm(base_prompt, entity1, entity2, relational_word, model, processor,device= device)
                     variations = generate_variations(base_prompt ,entity1, entity2, relational_word)
                     for prompt, label in variations:
                         data["prompt"].extend(prompt)

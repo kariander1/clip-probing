@@ -13,7 +13,7 @@ from src.model import LinearProbe
 from src.train import train_probes, evaluate_probes, load_best_checkpoint
 from src.config import Config
 from src.utils.visualization import plot_label_distribution
-from src.utils.enums_utils import get_text_processor_and_model,dataset_type_to_class, dataset_type_to_path, optimizer_name_to_class, dataset_type_to_criterion
+from src.utils.enums_utils import get_text_processor_and_model,dataset_type_to_class, dataset_type_to_path, optimizer_name_to_class, dataset_type_to_criterion, dataset_labels_are_super_labels
 
 def set_seed(seed: int):
     random.seed(seed)
@@ -60,7 +60,7 @@ def main(config: Config):
     dataset_class = dataset_type_to_class(config.dataset.dataset_type)
     dataset_path = dataset_type_to_path(config.dataset.dataset_type)
     full_dataset = get_dataset(config, dataset_class, dataset_path, processor)
-    
+    has_super_labels = dataset_labels_are_super_labels(config.dataset.dataset_type)
     train_loader, val_loader, test_loader = full_dataset.split_dataset(config)
     if config.log.plot_distribution:
         logger.info("Plotting label distributions. (If this takes too long, set 'plot_distribution' to False in the config)")
@@ -73,46 +73,31 @@ def main(config: Config):
         # Initialize multiple probes
     probes = {
         "embedding_probe": LinearProbe(tokenizer_max_length* hidden_size, num_classes).to(device),
-        # "encoder.layers.0" : LinearProbe(processor.tokenizer.model_max_length*config.model.input_dim, num_classes).to(device),
-        # "encoder.layers.3" : LinearProbe(processor.tokenizer.model_max_length*config.model.input_dim, num_classes).to(device),
-        # "encoder.layers.5" : LinearProbe(processor.tokenizer.model_max_length*config.model.input_dim, num_classes).to(device),
-        # "encoder.layers.7" : LinearProbe(processor.tokenizer.model_max_length*config.model.input_dim, num_classes).to(device),
-        # "encoder.layers.11" : LinearProbe(processor.tokenizer.model_max_length*config.model.input_dim, num_classes).to(device),
-        # "token_probe": LinearProbe(processor.tokenizer.model_max_length, num_classes).to(device)
-        # Add more probes as needed, for example:
-        # "intermediate_layer_probe": create_linear_probe("intermediate_layer_probe", intermediate_layer_dim, num_classes, device)
     }
+    ## Uncomment for intermediate layer probes
     # probes.update(
-    #     {f"encoder.layers.{i}": LinearProbe(processor.tokenizer.model_max_length*config.model.input_dim, num_classes).to(device) for i in range(0, 12, 2)}
+    #     {f"encoder.layers.{i}": LinearProbe(tokenizer_max_length*hidden_size, num_classes).to(device) for i in range(0, 12, 1)}
     # )
 
     # Initialize optimizers for each probe
     optimizer = optimizer_name_to_class(config.train.optimizer)
     optimizers = {
         "embedding_probe": optimizer(probes["embedding_probe"].parameters(), lr=config.train.lr),
-        # "encoder.layers.0": optimizer(probes["encoder.layers.0"].parameters(), lr=config.train.lr),
-        # "encoder.layers.3": optimizer(probes["encoder.layers.3"].parameters(), lr=config.train.lr),
-        # "encoder.layers.5": optimizer(probes["encoder.layers.5"].parameters(), lr=config.train.lr),
-        # "encoder.layers.7": optimizer(probes["encoder.layers.7"].parameters(), lr=config.train.lr),
-        # "encoder.layers.11": optimizer(probes["encoder.layers.11"].parameters(), lr=config.train.lr),
-        # "token_probe": optim.Adam(probes["token_probe"].parameters(), lr=config.train.lr)
     }
+    ## Uncomment for intermediate layer probes
     # optimizers.update(
-    #     {f"encoder.layers.{i}": optimizer(probes[f"encoder.layers.{i}"].parameters(), lr=config.train.lr) for i in range(0, 12, 2)}
+    #     {f"encoder.layers.{i}": optimizer(probes[f"encoder.layers.{i}"].parameters(), lr=config.train.lr) for i in range(0, 12, 1)}
     # )
 
-    # linear_probe = LinearProbe(input_dim=config.model.input_dim, num_classes=num_classes).to(device)
-    # optimizer = optim.Adam(linear_probe.parameters(), lr=config.train.lr)
-
     criterion = dataset_type_to_criterion(config.dataset.dataset_type)  
-    train_probes(model, processor, probes, train_loader, val_loader, optimizers, criterion, config.train.epochs, device, config.checkpoint_dir,config.log.log_interval, config.train.patience)
+    train_probes(model, processor, probes, train_loader, val_loader, optimizers, criterion, config.train.epochs, device, config.checkpoint_dir,config.log.log_interval, config.train.patience, has_super_labels=has_super_labels)
     logger.success("Training complete.")
     # After training, load the best checkpoints for each probe
     for probe_name in probes:
         load_best_checkpoint(probe_name, probes[probe_name], optimizers[probe_name], config.checkpoint_dir)
         
     # Evaluate the model
-    evaluate_probes(model, processor, probes, test_loader, criterion, device, plot_misclassifications=True, output_dir=config.output_dir)
+    evaluate_probes(model, processor, probes, test_loader, criterion, device, plot_misclassifications=True, output_dir=config.output_dir, has_super_labels=has_super_labels)
 
 if __name__ == "__main__":
     main()
